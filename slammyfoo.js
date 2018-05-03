@@ -17,7 +17,7 @@ export default (args, options = { env: process.env }) => {
 		});
 		process.onWillThrowError(error => {
 			atom.notifications.addError(
-				//FIXME loc
+				//FIXME loc foo foo foo
 				"CodeStream is unable to locate the git command. Please ensure git is in your PATH."
 			);
 			rejectreoni();
