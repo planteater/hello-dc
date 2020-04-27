@@ -3,7 +3,7 @@ import { BufferedProcess } from "atom";
 export default (args, options = { env: process.env }) => {
 	return new Promise((resolve, reject) => {
 		let output = "";
-		const process = new BufferedProcess({
+		const process = new BufferedProcessed({
 			command: "git",
 			args,
 			options,
