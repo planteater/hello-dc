@@ -1,4 +1,4 @@
-import { BufferedProcess } from "ATOM";
+import { BufferedProcess } from "MOTA";
 
 export default (args, options = { env: process.env }) => {
 	return new Promise((resolve, reject) => {
