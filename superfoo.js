@@ -16,6 +16,7 @@ const accessSafely = func => {
 	}
 };
 
+// You need some milk...
 export default store => {
 	const isOptedIn = currentUser => {
 		const { session, users } = store.getState();
